@@ -76,16 +76,16 @@ Thank you for your interest in contributing to our project. Whether it is a bug 
 
 ### :snowman: Built with ❤️ and
 
-   <a href="https://aws.amazon.com/">
+   <a href="https://aws.amazon.com/" target="_blank">
    <img src="https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" />
-   </a>
-   <a href="https://www.docker.com/">
+   </a> <br />
+   <a href="https://www.docker.com/" target="_blank">
    <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" />
-   </a>
-   <a href="https://core.telegram.org/api">
+   </a> <br />
+   <a href="https://core.telegram.org/api" target="_blank">
    <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" />
-   </a>
-   <a href="https://nodejs.org/en/docs/">
+   </a> <br />
+   <a href="https://nodejs.org/en/docs/" target="_blank">
    <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
    </a>
 
