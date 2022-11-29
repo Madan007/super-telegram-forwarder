@@ -77,7 +77,7 @@ Thank you for your interest in contributing to our project. Whether it is a bug 
 ### :snowman: Built with ❤️ and
 
 - [AWS](https://aws.amazon.com/)
-- [Docker](https://www.docker.com/) <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white"/>
+- <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" href="https://www.docker.com/"/>
 - [Telegram-API](https://core.telegram.org/api)
 - [Node.Js](https://nodejs.org/en/docs/)
 
