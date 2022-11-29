@@ -77,8 +77,8 @@ Thank you for your interest in contributing to our project. Whether it is a bug 
 ### :snowman: Built with ❤️ and
 
 - [AWS](https://aws.amazon.com/)
-- [AWS CDK](https://docs.aws.amazon.com/cdk/v2/guide/home.html)
-- [Typescript](https://www.typescriptlang.org/docs)
+- [Docker](https://www.docker.com/)
+- [Telegram-API](https://core.telegram.org/api)
 - [Node.Js](https://nodejs.org/en/docs/)
 
 ### :man: Author
