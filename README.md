@@ -44,28 +44,21 @@
 
    > Things might go wrong the first time you run this command. If that happens, stop the process and re-run the command
 
-1. ## 👷🏾 Telegram Bot Setup
+1. ## 👷🏾 Telegram API Setup
 
-   ```bash
+   You'll require two different api keys. One for the telegram bot api and one for the telegram account used as an agent.
+
    ## A. Bot API
-   # Telegram offers a neat way to create api keys for telegram bots. You need to message [@botfather](https://t.me/botfather) - a telegram bot to get create new bots! The bot will guide you through the process of creating and managing new bots and the api keys.
-    Select /newbot
-    Provide Bot Name
-    Provide unique username
 
-    ![Create Telegram bot with @botfather](https://i.imgur.com/DNeoeTO.png)
+   Telegram offers a neat way to create api keys for telegram bots. You need to message [@botfather](https://t.me/botfather) - a telegram bot to get create new bots! The bot will guide you through the process of creating and managing new bots and the api keys.
 
-   # Save the API KEY token which would be required to access telegram APIs
-   # Telegram Bot Access Link
-    https://t.me/{Name_of_the_bot}
+   ![Create Telegram bot with @botfather](https://i.imgur.com/DNeoeTO.png)
 
    ## B. Telegram API
+
    To get the API id and Hash id for the telegram account visit [https://my.telegram.org/auth?to=apps](https://my.telegram.org/auth?to=apps)
 
    ![](https://i.imgur.com/KJ1kDDO.png)
-
-
-   ```
 
 1. ## 🧹 CleanUp
 
