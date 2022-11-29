@@ -24,8 +24,9 @@
 
 1. ## 🚀 Docker Setup
 
-   ```bash
-   # The `docker-compose` file requires few environment variables. Create a `.env` file in the root directory. Docker compose will automatically pull the required environment variables from this file. Here's an example of my `.env` file
+   The `docker-compose` file requires few environment variables. Create a `.env` file in the root directory. Docker compose will automatically pull the required environment variables from this file. Here's an example of my `.env` file
+
+   ```docker
    TG_API_ID=XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
    TG_API_HASH=XXXXXXXXXXXXXXXXXXXXXXXXXXX
    TG_API_SESSION=XXXXXXXXXXXXXXXXXXXXXXXX
@@ -33,12 +34,15 @@
    TG_BOT_USERNAME=XXXXXXXXXXXXXXXXXXXXXXXX
    TG_CHANNEL_SENDER=XXXXXXXXXXXXXXXXXXXXXXXX
    TG_CHANNEL_RECEIVER=XXXXXXXXXXXXXXXXXXXXXXXX
-
-   # With that set up you're ready to go !
-   docker-compose up
-
-   # Things might go wrong the first time you run this command. If that happens, stop the process and re-run the command
    ```
+
+   With that set up you're ready to go !
+
+   ```bash
+   docker-compose up
+   ```
+
+   > Things might go wrong the first time you run this command. If that happens, stop the process and re-run the command
 
 1. ## 👷🏾 Telegram Bot Setup
 
