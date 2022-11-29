@@ -1,0 +1,17 @@
+version: "3.1"
+
+services:
+  node-forwarder-bot:
+    build: ./forwarder
+    restart: always
+    image: telegram-forwarder-node-bot
+    environment:
+      AGENT_HOSTNAME: super-telegram-forwarder
+      TG_API_ID: "${TG_API_ID}"
+      TG_API_HASH: "${TG_API_HASH}"
+      TG_API_SESSION: "${TG_API_SESSION}"
+      TG_BOT_TOKEN: "${TG_API_TOKEN}"
+      TG_BOT_USERNAME: "${TG_BOT_USERNAME}"
+      TG_CHANNEL_SENDER: "${TG_CHANNEL_SENDER"
+      TG_CHANNEL_RECEIVER: "${TG_CHANNEL_RECEIVER}"
+    command: ["node", "server.js"]
