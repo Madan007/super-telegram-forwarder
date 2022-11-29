@@ -15,7 +15,7 @@
 
    ```bash
    git clone --branch main https://github.com/Madan007/super-telegram-forwarder.git
-   cd super-telegram-bot
+   cd super-telegram-forwarder
 
    # Install microservice feature dependencies
    cd forwarder
