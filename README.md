@@ -9,6 +9,8 @@
    - 🛠 Docker Installed & Configured - [Get help here](https://www.youtube.com/watch?v=gcacQ29AjOo)
    - 🛠 Node JS Runtime - [Get help here](https://www.youtube.com/watch?v=TQks1p7xjdI)
 
+
+
 1. ## ⚙️ Setting up the environment
 
    Providing the detailed instructions for project setup.
@@ -21,6 +23,7 @@
    cd forwarder
    npm install
    ```
+
 
 1. ## 🚀 Docker Setup
 
@@ -44,6 +47,8 @@
 
    > Things might go wrong the first time you run this command. If that happens, stop the process and re-run the command
 
+
+
 1. ## 👷🏾 Telegram API Setup
 
    You'll require two different api keys. One for the telegram bot api and one for the telegram account used as an agent.
@@ -60,6 +65,8 @@
 
    ![](https://i.imgur.com/KJ1kDDO.png)
 
+
+
 1. ## 🧹 CleanUp
 
 If you want to destroy all the resources created, Execute the below command to delete the stack, or _you can delete the stack from console as well_
@@ -70,9 +77,11 @@ docker-compose down -v
 
 This is not an exhaustive list, please carry out other necessary steps as maybe applicable to your needs.
 
+
 ### 💡 Help/Suggestions or 🐛 Bugs
 
 Thank you for your interest in contributing to our project. Whether it is a bug report, new feature, correction, or additional documentation or solutions, we greatly value feedback and contributions from our community. [Start here][200]
+
 
 ### :snowman: Built with ❤️ and
 
