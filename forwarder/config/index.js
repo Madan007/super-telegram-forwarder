@@ -5,7 +5,7 @@ const config = {
   TG_API_SESSION: process.env.TG_API_SESSION || "",
   TG_BOT_TOKEN: process.env.TG_BOT_TOKEN || "",
   TG_BOT_USERNAME: process.env.TG_BOT_USERNAME || "",
-  TG_CHANNEL_SENDER: process.env.TG_CHANNEL_SENDER || "",
+  TG_CHANNEL_SENDER: process.env.TG_CHANNEL_SENDER || [],
   TG_CHANNEL_RECEIVER: process.env.TG_CHANNEL_RECEIVER || "",
 };
 

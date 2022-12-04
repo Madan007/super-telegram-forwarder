@@ -14,12 +14,12 @@ const server = async () => {
     // client.addEventHandler(handler, new NewMessage({}));
     client.addEventHandler(
       (event) => processor(event, client),
-      new NewMessage({ chats: [sender] })
+      new NewMessage({ chats: [...sender] })
     );
 
     client.addEventHandler(
       (event) => processor(event, client),
-      new EditedMessage({ chats: [sender] })
+      new EditedMessage({ chats: [...sender] })
     );
   } catch (err) {
     console.log("ERROR $$$$", err);
