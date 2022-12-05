@@ -1,4 +1,7 @@
+const { Api } = require("telegram");
+
 const config = require("../config");
+const { forwardMessage } = require("../utils/forwardMessage");
 const { getChannelDetails } = require("../utils/getChannelDetails");
 const receiver = config.TG_CHANNEL_RECEIVER;
 
@@ -7,19 +10,18 @@ const receiver = config.TG_CHANNEL_RECEIVER;
 // const sender = await messageObj.getSender();
 // console.log("sender Details", sender);
 
+// const peerSenderDetails = await getChannelDetails(
+//   [peerSenderId.toString()],
+//   client
+// );
+
 exports.processor = async (event, client) => {
   try {
     const peerSenderId = event?.message?.peerId?.channelId;
-    const peerSenderDetails = await getChannelDetails(
-      [peerSenderId.toString()],
-      client
-    );
-    console.log("Sender Details >>>>>>", peerSenderDetails);
 
-    const message = event?.message?.message;
-    console.log(" newmessage received >>>>>>>>>", message);
-    await client.sendMessage(receiver, { message });
-    console.log(" newmessage received >>>>>>>>>", message);
+    const messageId = event?.message?.id;
+    await forwardMessage(messageId, peerSenderId, receiver, client);
+    // await client.sendMessage(receiver, { message, dropAuthor: false });
   } catch (err) {
     throw err;
   }
